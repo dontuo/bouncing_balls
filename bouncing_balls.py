@@ -63,7 +63,7 @@ class BouncingBalls:
                 x = b[0]
                 y = b[1]
                 
-                #self.display.line(self.x + 1, self.y + 1, x + 1, y + 1,1) 
+                self.display.line(self.x + 1, self.y + 1, x + 1, y + 1,1) 
             
             self.display.fill_rect(self.x, self.y, 3, 3, 1)
             #self.display.show()
